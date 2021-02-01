@@ -1,0 +1,5 @@
+accessWidener	v1	named
+accessible field net/minecraft/world/gen/chunk/ChunkGeneratorSettings INSTANCE Lnet/minecraft/world/gen/chunk/ChunkGeneratorSettings;
+accessible field net/minecraft/world/gen/chunk/StructuresConfig structures Ljava/util/Map;
+accessible field net/minecraft/world/gen/feature/StructureFeature STRUCTURE_TO_GENERATION_STEP Ljava/util/Map;
+mutable field net/minecraft/world/gen/chunk/StructuresConfig DEFAULT_STRUCTURES Lcom/google/common/collect/ImmutableMap;

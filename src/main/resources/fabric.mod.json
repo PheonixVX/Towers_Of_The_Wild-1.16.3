@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "totw",
+  "version": "${version}",
+  "name": "Towers of the Wild",
+  "description": "",
+  "authors": [
+    "Ender"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/TOTW/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ender.towersofthewild.TowersOfTheWild"
+    ]
+  },
+  "accessWidener" : "totw.accesswidener",
+  "mixins": [
+    "TOTW.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}
